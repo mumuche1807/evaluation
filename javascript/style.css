@@ -1,0 +1,33 @@
+input,button,div{
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
+
+div {
+    height: 100px;
+}
+
+input{
+    border: 5px solid white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+button{
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+button:hover{
+    box-shadow: 10px 0px 20px black;
+}
+
+.value{
+    text-align: center;
+    font-size: 30px;
+}
+
+.firstline{
+    margin-top: 50px;
+}

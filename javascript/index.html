@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" >
+        <title>Lancé de Dé</title>
+        <link rel="stylesheet" href="resource/bootstrap-5.0.2-dist/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="style.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <boby>
+        <div class="container">
+
+            <div class="row firstline">
+                <button class="col-2" id="rules">Régle</button>
+                <div class="col-2"></div>
+                <button id="game" class="col-4">Nouvelle partie</button>
+                <div class="col-4"></div>
+            </div>
+
+            
+
+            <div class="row">
+                <input id="name1" class="name1 col-4" value="joueur 1">
+                <div class="col-4"></div>
+                <input id="name2" class="name2 col-4" value="joueur 2">
+            </div>
+
+            <div class="row">
+                <input id="totalJ1" class="totalJ1 col-4" type="text">
+                <div class="col-4"></div>
+                <input id="totalJ2" class="totalJ2 col-4" type="text">
+            </div>
+
+            <div class="row"></div>
+
+            <div class="row">
+                <div class="col-4 value">valeur courante</div>
+                <div class="col-1"></div>
+                <button id="pick" class="pick col-2">lancer</button>
+                <div class="col-1"></div>
+                <div class="col-4 value">valeur courante</div>
+                
+            </div>
+
+            <div class="row">
+                <input id="currentJ1" class="currentJ1 col-4" type="text">
+                <div class="col-1"></div>
+                <button id="hold" class="hold col-2">hold</button>
+                <div class="col-1"></div>
+                <input id="currentJ2" class="currentJ2 col-4" type="text">
+            </div>
+
+        </div>
+
+        <script src="java.js"></script>
+    </boby>
+</html>
