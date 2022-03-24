@@ -1,4 +1,4 @@
-create database cinema CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+create database cinema CHARACTER SET utf8 ;
 use cinema ;
 
 /*création de la table cinema */
