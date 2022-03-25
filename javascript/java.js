@@ -44,7 +44,7 @@ function winner(){
 
     }
 }
-//fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+
 function win(){
                 
     if(wins === ""){
